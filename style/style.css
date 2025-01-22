@@ -8,10 +8,14 @@ body{
     max-width: 1440px;
 }
 .navber{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    background: -webkit-linear-gradient(bottom,rgba(218, 176, 39, 0.67), rgb(116, 219, 235) );
+    background-color: coral;
+    /* background: -webkit-linear-gradient(bottom,rgba(218, 176, 39, 0.67), rgb(116, 219, 235) ); */
 }
 .nav-links{
     display: flex;
@@ -31,7 +35,7 @@ body{
     border-radius: 10px;
     border:none;
     box-shadow: 1px 1px 1px black;
-    margin-top:5px;
+    margin-bottom: 20px;
     border: 1px solid black;
 }
 .nav-btn:hover{
@@ -39,6 +43,57 @@ body{
     width: 130px;
      background-color: rgba(235, 85, 62, 0.217);
 } 
+/* nav section end  */
+.katun-main-header{
+        text-align: center;
+        margin-top: 150px;
+        font-size: 4rem;
+}
+.home-container{
+    display: flex;
+    margin-top: 100px;
+}
+.right-text{
+    margin-left: 100px;
+    border: 2px solid rgb(209, 197, 197);
+    padding: 60px;
+    background-color: rgb(253, 252, 248);
+    box-shadow: 20px 20px 4px rgba(60, 96, 117, 0.794) ;
+
+}
+
+.rakib-header{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.first-p{
+    padding: 20px;
+    font-size: 17px;
+}
+.gray-color{
+    color: rgb(75, 77, 76);
+}
+.home-btn{
+        padding: 30px;
+        font-size: 25px;
+        border-radius: 10px;
+        border: none;
+        background: orange;
+        margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:576px) {
     .nav-links{
         flex-direction: column-reverse;
@@ -48,7 +103,7 @@ body{
     }
     .nav-btn{
        margin-left: -150px;
-       background-color: rgba(232, 115, 47, 0.732);
+       background-color:white;
        box-shadow: 4px 4px 4px rgba(100, 148, 237, 0.662);
     }
     .hero-katun{
@@ -57,9 +112,31 @@ body{
        margin-left: 80px;
        font-size: 50px;
     }
+    .home-container{
+        flex-direction: column;
+    }
+    .right-text{
+        margin-right: 70px;
+        box-shadow: none;
+    }
+    .home-btn{
+        padding: 20px;
+        font-size: 25px;
+        border-radius: 10px;
+        border: none;
+        background: orange;
+        margin-left: 40px;
+}
+.bag-img{
+    width: 550px;
+}
 }
 
 @media only screen and (max-width:405px) {
+    
+    .bag-img{
+        width: 400px;
+    }
     .nav-links{
         flex-direction: column;
         margin-right: 40px;
@@ -76,6 +153,18 @@ body{
         padding: 10px;
        margin-left: 80px;
        font-size: 30px;
+    }
+    .right-text{
+        margin-left: -10px;
+        margin-right: -10px;
+       
+    }
+    .katun-main-header{
+        color:rgb(255, 38, 0);
+        text-shadow: 3px 3px 3px black;
+    }
+    .navber{
+        padding-top: 40px;
     }
 }
 
