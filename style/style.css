@@ -8,6 +8,7 @@ body{
     max-width: 1440px;
 }
 .navber{
+    border-radius: 13px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -41,13 +42,15 @@ body{
 .nav-btn:hover{
     height: 45px;
     width: 130px;
-     background-color: rgba(235, 85, 62, 0.217);
+    background: -webkit-linear-gradient(bottom,white, rgb(22, 228, 8) );
+
 } 
 /* nav section end  */
 .katun-main-header{
         text-align: center;
         margin-top: 150px;
-        font-size: 4rem;
+        font-size: 4.5rem;
+        text-shadow: 2px 2px 3px ;
 }
 .home-container{
     display: flex;
@@ -58,7 +61,7 @@ body{
     border: 2px solid rgb(209, 197, 197);
     padding: 60px;
     background-color: rgb(253, 252, 248);
-    box-shadow: 20px 20px 4px rgba(60, 96, 117, 0.794) ;
+    box-shadow: 8px 8px 20px rgba(128, 128, 128, 0.385) ;
 
 }
 
@@ -79,16 +82,61 @@ body{
         border-radius: 10px;
         border: none;
         background: orange;
+        border: 1px solid black;
         margin-left: 250px;
+        
 }
-
-
-
-
-
-
-
-
+.home-btn:hover{
+    /* background-color: white; */
+    font-weight: 600;
+    text-shadow: 1px 1px cornflowerblue;
+  background: -webkit-linear-gradient(bottom,rgba(230, 228, 223, 0.67), rgb(116, 219, 235) );
+}
+.second-h-one{
+    text-align: center;
+    padding: 100px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px ;
+}
+/* home section end  */
+.edur-container{
+    display: flex;
+    margin-top: 150px;
+}
+.panda-pic{
+    margin-left: 120px;
+}
+.khorgos-img{
+    margin-right: 120px;
+}
+.edur-text{
+    background-color: bisque;
+    padding: 50px;
+    box-shadow: 8px 8px 8px  rgba(128, 128, 128, 0.699) ;
+}
+.card-title{
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.card-pt{
+    font-size: 20px;
+    padding: 20px;
+}
+.cd-btn{
+   padding: 40px;
+   border: none;
+   font-size: 15px;
+   background-color: gray;
+   margin-left: 200px;
+}
+.horen-img{
+    margin-left: 120px;
+}
+.edur-last{
+    margin-right: 130px;
+}
 
 
 
@@ -165,6 +213,23 @@ body{
     }
     .navber{
         padding-top: 40px;
+        margin-top: auto;
+        border-radius: 0%;
     }
+    .edur-container{
+        flex-direction: column-reverse;
+    }
+   .cd-btn{
+    margin-left: 90px;
+    border-radius: 10px;
+    background-color: black;
+   }
+   .coloum-revers-m{
+    flex-direction: column;
+   }
+   .edur-text{
+    padding: 10px;
+   }
+   
 }
 
