@@ -6,6 +6,7 @@
 body{
     margin: 0 auto;
     max-width: 1440px;
+    background-image: url(../img/bg.png);
 }
 .navber{
     border-radius: 13px;
@@ -93,10 +94,16 @@ body{
   background: -webkit-linear-gradient(bottom,rgba(230, 228, 223, 0.67), rgb(116, 219, 235) );
 }
 .second-h-one{
+    background-color: white;
+    border-radius: 10px;
     text-align: center;
-    padding: 100px;
+    padding: 20px;
     font-size: 4rem;
+    margin-top: 150px;
     text-shadow: 2px 2px 2px ;
+    justify-content: center;
+    
+
 }
 /* home section end  */
 .edur-container{
@@ -110,7 +117,8 @@ body{
     margin-right: 120px;
 }
 .edur-text{
-    background-color: bisque;
+    border-radius: 10px;
+    background-color: white;
     padding: 50px;
     box-shadow: 8px 8px 8px  rgba(128, 128, 128, 0.699) ;
 }
@@ -138,8 +146,29 @@ body{
     margin-right: 130px;
 }
 
+footer{
+    margin-top: 200px;
+}
+.icon-gap{
+    display: flex;
+    grid-template-columns: 5, 1fr;
+    gap: 50px;
+    
+}
+.second-h-one {
+    display: flex;
+    
+}
+.margen-left-footer{
+    margin-left: 200px;
+    justify-content: center;
 
+}
+section{
+    background: -webkit-linear-gradient(bottom,#3457804c, white );
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.287) ;
 
+}
 
 
 @media only screen and (max-width:576px) {
@@ -230,6 +259,17 @@ body{
    .edur-text{
     padding: 10px;
    }
-   
+   .icon-gap{
+    display: flex;
+    /* grid-template-columns: 5, 1fr; */
+    gap: 10px;
+   }
+  .margen-left-footer{
+   margin-left: 0px;
+  }
+  
+  .second-h-one{
+    font-size: 3rem;
+  }
 }
 
